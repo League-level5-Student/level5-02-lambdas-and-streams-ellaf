@@ -31,14 +31,14 @@ public class CreatingStreams {
 		randStack.push(new Random());
 		randStack.push(new Random());
 		randStack.push(new Random());
-		
+		randStack.stream();
 		
 		ArrayDeque<Double> dQueue = new ArrayDeque<Double>();
 		dQueue.push(0.0);
 		dQueue.push(1.0);
 		dQueue.push(2.0);
 		dQueue.push(3.0);
-		
+		dQueue.stream();
 	}
 	
 }
