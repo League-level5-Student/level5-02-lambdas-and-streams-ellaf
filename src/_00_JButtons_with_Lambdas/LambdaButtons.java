@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 
 public class LambdaButtons {
 	private JFrame window = new JFrame();
-	private JButton addNumbers = new JButton("ADD 2 Numbers");
+	private JButton addNumbers = new JButton("ADD 2 NUMBERS");
 	private JButton randNumber = new JButton("RANDOM NUMBER");
 	private JButton tellAJoke = new JButton("TELL A JOKE");
 	
@@ -45,7 +45,7 @@ public class LambdaButtons {
 		
 		tellAJoke.addActionListener(e->{
 			
-		JOptionPane.showMessageDialog(null, "What do you get when you cross a dad joke with a rhetorical question?");
+		JOptionPane.showMessageDialog(null, "What do you get when you cross a joke with a rhetorical question?");
 			
 		});
 		
